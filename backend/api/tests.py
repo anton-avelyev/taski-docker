@@ -6,6 +6,8 @@ from api import models
 
 
 class TaskiAPITestCase(TestCase):
+    '''Тест-кейс для api.'''
+
     def setUp(self):
         self.guest_client = Client()
 
